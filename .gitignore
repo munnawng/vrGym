@@ -1,0 +1,29 @@
+# Unity Generated Files (DO NOT TRACK)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+Packages/*/cache/
+Library/
+Logs/
+Temp/
+Obj/
+Build/
+Windows_Build_Gym/
+
+
+
+# Visual Studio files
+.vs/
+*.csproj
+*.sln
+*.unityproj
+
+# Large Files (Exclude APKs, Apps, and Crash Logs)
+*.apk
+*.app
+*.log
+*analytics.json
