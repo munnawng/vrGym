@@ -12,6 +12,7 @@ Logs/
 Temp/
 Obj/
 Build/
+.vscode/
 Windows_Build_Gym/
 
 
