@@ -6352,6 +6352,7 @@ GameObject:
   - component: {fileID: 292689498}
   - component: {fileID: 292689497}
   - component: {fileID: 292689496}
+  - component: {fileID: 292689499}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -6442,6 +6443,21 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &292689499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292689494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a07ddb6230914fd48814a4dfa4278aa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 1.5
+  heightOffset: -0.2
+  rotationOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &297539242
 GameObject:
   m_ObjectHideFlags: 0
@@ -7844,12 +7860,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barbell: {fileID: 1098803545}
-  leftHandPoint: {fileID: 764207337}
+  leftHandPoint: {fileID: 1393524600}
   rightHandPoint: {fileID: 1110815184}
   leftHand: {fileID: 1907780511}
   rightHand: {fileID: 1490398580}
   statusText: {fileID: 1626892364}
-  requiredHoldTime: 5
+  requiredHoldTime: 10
   minHandDistance: 0.3
   maxHandDistance: 1.2
 --- !u!1 &363640559
@@ -35110,8 +35126,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281308148
-  m_fontColor: {r: 0.9559748, g: 0.5775145, b: 0.18337865, a: 1}
+    rgba: 4279578602
+  m_fontColor: {r: 0.91764706, g: 0.18568997, b: 0.08235291, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -35128,8 +35144,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 34
+  m_fontSizeBase: 34
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
