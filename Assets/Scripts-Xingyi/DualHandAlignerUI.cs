@@ -65,7 +65,7 @@ public class DualHandAlignerUI : MonoBehaviour
         else
         {
             holdTimer = 0f;
-            statusText.text = "Please hold the barbell with both hands...";
+            statusText.text = "Please hold the barbell with both hands for 5 seconds...";
         }
     }
 
