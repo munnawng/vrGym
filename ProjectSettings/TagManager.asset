@@ -8,13 +8,13 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - LeftHand
+  - SyntheticLeft
   - Water
   - UI
-  - Grabbable
+  - SyntheticRight
+  - Barbell
+  - LeftHand
   - RightHand
-  - 
-  - 
   - 
   - 
   - 
