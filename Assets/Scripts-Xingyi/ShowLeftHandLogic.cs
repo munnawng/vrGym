@@ -22,7 +22,7 @@ public class LeftHandVisualController : MonoBehaviour
             if (!wasTracking)
             {
                 leftHandVisual.SetActive(true);
-                Debug.Log("✅ Left hand tracking restored, visual enabled.");
+                Debug.Log("Left hand tracking restored, visual enabled.");
                 wasTracking = true;
             }
         }
@@ -31,7 +31,7 @@ public class LeftHandVisualController : MonoBehaviour
             if (wasTracking)
             {
                 leftHandVisual.SetActive(false);
-                Debug.Log("⚠️ Left hand tracking lost, visual hidden.");
+                Debug.Log("Left hand tracking lost, visual hidden.");
                 wasTracking = false;
             }
         }

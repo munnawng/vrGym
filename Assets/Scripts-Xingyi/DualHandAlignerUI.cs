@@ -17,8 +17,8 @@ public class DualHandAlignerUI : MonoBehaviour
 
     [Header("Config")]
     public float readyMessageDuration = 8f;
-    public float countdownDuration = 7f;
-    public float alignedMessageDuration = 20f; // 5s + 15s
+    public float countdownDuration = 5f;
+    public float alignedMessageDuration = 18f; // 3s + 15s
     public float minGripDistance = 0.3f;
     public float maxGripDistance = 1.0f;
     public float resetCooldown = 1f;
@@ -28,7 +28,7 @@ public class DualHandAlignerUI : MonoBehaviour
 
     private float palmTextTimer = 0f;
     private float idlePalmTextDuration = 15f;
-    private float palmOkTextDuration = 6f;
+    private float palmOkTextDuration = 4f;
 
     private enum State
     {
@@ -146,11 +146,11 @@ public class DualHandAlignerUI : MonoBehaviour
                 timer += Time.deltaTime;
                 FollowHands();
 
-                if (timer < 5f)
+                if (timer < 3f)
                 {
                     Show("Barbell is now visible. Initial alignment completed.");
                 }
-                else if (timer < 21f)
+                else if (timer < 18f)
                 {
                     Show("Gently move your fingers to check if the barbell fits your palms.");
                 }
