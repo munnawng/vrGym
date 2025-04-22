@@ -28,7 +28,7 @@ public class DualHandAlignerUI : MonoBehaviour
 
     private float palmTextTimer = 0f;
     private float idlePalmTextDuration = 15f;
-    private float palmOkTextDuration = 4f;
+    private float palmOkTextDuration = 1f;
 
     private enum State
     {
@@ -144,7 +144,7 @@ public class DualHandAlignerUI : MonoBehaviour
 
             case State.Aligned:
                 timer += Time.deltaTime;
-                FollowHands();
+                // FollowHands();
 
                 if (timer < 3f)
                 {
