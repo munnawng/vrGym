@@ -17,7 +17,14 @@ MonoBehaviour:
     - Meta.XR.SDK.226a9612d32145259b2743a716f9fba3.Ignored.Standalone
     - Meta.XR.SDK.c5ad2ac8b06a338d8874d28a074a9d83.Ignored.Android
     - Meta.XR.SDK.c5ad2ac8b06a338d8874d28a074a9d83.Ignored.Standalone
-    values: 010101
+    - Meta.XR.SDK.2402cb5a6c706c586c7ebf44dec8d248.Ignored.Standalone
+    - Meta.XR.SDK.e958b7e7205af9907dee9c9d8e57b89a.Ignored.Standalone
+    - Meta.XR.SDK.9df3757562be36939cd036d680aa3e56.Ignored.Standalone
+    - Meta.XR.SDK.36d4c38c1a9e8a369725c8d57a25daf8.Ignored.Standalone
+    - Meta.XR.SDK.e958b7e7205af9907dee9c9d8e57b89a.Ignored.Android
+    - Meta.XR.SDK.36d4c38c1a9e8a369725c8d57a25daf8.Ignored.Android
+    - Meta.XR.SDK.9df3757562be36939cd036d680aa3e56.Ignored.Android
+    values: 01010101010101010101
   intProperties:
     keys: []
     values: 
